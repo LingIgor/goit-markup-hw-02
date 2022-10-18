@@ -1,3 +1,178 @@
+:root {
+  --main-color: #757575;
+  --back-color: #ffffff;
+  --link-color: #2196f3;
+  --h-color: #212121;
+  --logo-color: #2196f3;
+  --button-color: #2196f3;
+  --back-section-color: #f5f4fa;
+  --hero-back-color: #2f303a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: var(--back-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--h-color);
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
 ul {
   list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-web {
+  color: var(--logo-color);
+}
+
+.hdr-nav {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.hdr-link:hover,
+.hdr-link:focus {
+  color: var(--button-color);
+}
+
+.hdr-link {
+  color: var(--h-color);
+}
+
+.hdr-adress {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.hdr-nav-mail:hover,
+.hdr-nav-mail:focus {
+  color: var(--button-color);
+}
+
+.hdr-nav-mail {
+  color: var(--main-color);
+}
+
+.hero {
+  background-color: var(--hero-back-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--back-color);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--back-color);
+  background-color: var(--button-color);
+}
+
+.skills-title {
+  opacity: 0;
+}
+
+.skills-name {
+  text-transform: uppercase;
+}
+.skills-text {
+  line-height: 1.71;
+  color: var(--main-color);
+}
+
+.duties-title {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--h-color);
+}
+
+.duties-foto {
+}
+
+.team {
+  background-color: var(--back-section-color);
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--h-color);
+}
+
+.team-people {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.team-name {
+  font-weight: 500;
+  color: var(--h-color);
+}
+
+.ftr {
+  background-color: var(--hero-back-color);
+}
+
+.ftr-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--back-color);
+}
+
+.ftr-nav-map {
+  line-height: 1.71;
+  color: var(--back-color);
+  background-color: var(--hero-back-color);
+}
+
+.ftr-nav-map:hover,
+.ftr-nav-map:focus {
+  color: var(--button-color);
+}
+
+.ftr-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.ftr-mail:hover,
+.ftr-mail:focus {
+  color: var(--button-color);
 }
