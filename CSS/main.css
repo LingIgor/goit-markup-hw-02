@@ -1,0 +1,351 @@
+:root {
+  --text-color: #757575;
+  --h-color: #212121;
+  --link-color: #2196f3;
+  --wall-color: #fff;
+  --logo-color: #000000;
+  --button-active-color: #188ce8;
+  --hero-back-color: #2f303a;
+  --team-back-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+  background-color: var(--wall-color);
+  width: 1600px;
+  height: 100%;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--h-color);
+}
+
+/*---------------HEADER------------------------------------------*/
+
+header {
+  display: flex;
+}
+
+.logo-web {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--link-color);
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  color: var(--logo-color);
+}
+
+.nv-hdr {
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--h-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hdr-mail {
+  list-style: none;
+}
+.nv-link {
+}
+
+.nv-hdr {
+  /*   display: flex;
+width: 281px;
+margin-top: 32px;
+margin-left: 93px;
+flex-direction: row;
+justify-content: space-between;
+padding: 0%;*/
+}
+
+.nv-hdr-link {
+  /* position: absolute;
+width: 281px;
+height: 16px;
+left: 453px;
+top: 32px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);*/
+
+  /*
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--h-color)*/
+}
+
+.nv-hdr-link:focus,
+.nv-hdr-link:hover {
+  background-color: var(--wall-color);
+  color: var(--link-color);
+}
+
+.hdr-mail-link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--text-color);
+}
+
+.hdr-mail-link:focus,
+.hdr-mail-link:hover {
+  background-color: var(--wall-color);
+  color: var(--link-color);
+}
+
+/*--------------------Hero--------------------------------------------*/
+
+.hero {
+  background-color: var(--hero-back-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--wall-color);
+}
+
+.hero-button {
+  font-size: 16px;
+  font-weight: bold;
+
+  line-height: 1.87;
+
+  cursor: pointer;
+  /*padding: 10px 32px 10px 32px;
+    margin-left: 692px;*/
+
+  /* position: absolute;
+   width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;*/
+
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--wall-color);
+  background: var(--link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-button:active {
+  background-color: var(--button-active-color);
+}
+
+/*-------------SKILLS-----------------------------------------------------*/
+
+.skills-all {
+  list-style: none;
+}
+
+.skills-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--h-color);
+}
+
+/*----------------WORK----------------------------------------------------*/
+
+.duties {
+  list-style: none;
+}
+
+.our-works {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--h-color);
+}
+
+/*-----------------Our Team------------------------------------------------*/
+
+.team {
+  list-style: none;
+}
+
+.band {
+  background-color: var(--team-back-color);
+}
+
+.our-band {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--h-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--h-color);
+}
+
+.team-work {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/*---------------Footer-------------------------------------------------------*/
+
+.ftr-group {
+  list-style: none;
+}
+
+.ftr {
+  background-color: var(--hero-back-color);
+}
+
+.logo-web-ftr {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--link-color);
+}
+
+.logo-ftr {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  color: var(--wall-color);
+}
+
+.map-link {
+  font-style: normal;
+  text-decoration: none;
+  color: var(--wall-color);
+}
+
+.ftr-mail-link {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--text-color);
+}
+
+.ftr-mail-link:focus,
+.ftr-mail-link:hover,
+.map-link:focus,
+.map-link:hover {
+  background-color: var(--hero-back-color);
+  color: var(--link-color);
+}
+
+/*--------------------Portfolio----------------------------------------
+----------------------Main menu-------------------------------------*/
+
+.title-menu {
+  list-style: none;
+}
+
+.title-button {
+  font-family: inherit;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+
+  color: var(--h-color);
+  background-color: var(--team-back-color);
+}
+
+.title-button:hover {
+  color: var(--wall-color);
+  background-color: var(--link-color);
+}
+
+.title-button:active {
+  background-color: var(--button-active-color);
+}
+
+/*--------------------PORTFOLIO---------------------------------------------*/
+
+.portfolio {
+  list-style: none;
+}
+
+.port-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--h-color);
+}
+
+.port-text {
+  font-size: 16px;
+  line-height: 1.88;
+}
