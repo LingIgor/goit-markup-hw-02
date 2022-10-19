@@ -176,3 +176,39 @@ ul {
 .ftr-mail:focus {
   color: var(--button-color);
 }
+
+.main {
+}
+.main-title {
+  opacity: 0;
+}
+.main-button {
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--h-color);
+}
+
+.main-button:hover,
+.main-button:focus {
+  color: var(--back-color);
+  background-color: var(--button-color);
+}
+
+.work {
+}
+
+.work-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--main-color);
+}
