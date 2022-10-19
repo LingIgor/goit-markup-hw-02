@@ -183,6 +183,7 @@ ul {
   opacity: 0;
 }
 .main-button {
+  font-weight: 500;
   cursor: pointer;
   border: none;
   text-align: center;
