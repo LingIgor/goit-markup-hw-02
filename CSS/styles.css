@@ -20,26 +20,8 @@ body {
   background-color: var(--back-color);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  color: var(--h-color);
-}
-
-a {
-  text-decoration: none;
-  font-style: normal;
-}
-
-ul {
-  list-style: none;
-}
-
 .logo {
+  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -53,9 +35,17 @@ ul {
   color: var(--logo-color);
 }
 
+.hdr-link {
+  text-decoration: none;
+}
+
 .hdr-nav {
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.hdr-link-nav {
+  list-style: none;
 }
 
 .hdr-link:hover,
@@ -68,6 +58,7 @@ ul {
 }
 
 .hdr-adress {
+  list-style: none;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -78,6 +69,7 @@ ul {
 }
 
 .hdr-nav-mail {
+  text-decoration: none;
   color: var(--main-color);
 }
 
@@ -105,7 +97,17 @@ ul {
 }
 
 .skills-title {
-  opacity: 0;
+  display: none;
+}
+
+.skills-all {
+  list-style: none;
+}
+
+.skills-name {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--h-color);
 }
 
 .skills-name {
@@ -123,6 +125,7 @@ ul {
 }
 
 .duties-foto {
+  list-style: none;
 }
 
 .team {
@@ -136,6 +139,7 @@ ul {
 }
 
 .team-people {
+  list-style: none;
   font-size: 16px;
   line-height: 1.9;
 }
@@ -150,6 +154,7 @@ ul {
 }
 
 .ftr-logo {
+  text-decoration: none;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -157,7 +162,13 @@ ul {
   color: var(--back-color);
 }
 
+.ftr-nav {
+  list-style: none;
+}
+
 .ftr-nav-map {
+  font-style: normal;
+  text-decoration: none;
   line-height: 1.71;
   color: var(--back-color);
   background-color: var(--hero-back-color);
@@ -169,6 +180,8 @@ ul {
 }
 
 .ftr-mail {
+  font-style: normal;
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -181,7 +194,11 @@ ul {
 .main {
 }
 .main-title {
-  opacity: 0;
+  display: none;
+}
+
+.btn {
+  list-style: none;
 }
 .main-button {
   font-weight: 500;
@@ -201,12 +218,17 @@ ul {
 }
 
 .work {
+  list-style: none;
 }
 
 .work-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+
+.work-link {
+  text-decoration: none;
 }
 
 .work-text {
